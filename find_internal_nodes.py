@@ -1,23 +1,5 @@
 import unittest
 
-'''
-def find_internal_nodes_num_old(tree):
-    num_nodes = len(tree)
-    parent_count = [0] * num_nodes
-
-    for node in tree:
-        if node != -1:
-            parent_count[node] += 1
-
-    internal_nodes = sum(count > 0 for count in parent_count)
-    return internal_nodes
-
-
-my_tree = [4, 4, 1, 5, -1, 4, 5]
-print(find_internal_nodes_num_old(my_tree))
-'''
-
-
 def find_internal_nodes_num(tree):
     num_of_nodes = len(tree)
     internal_nodes = 0
