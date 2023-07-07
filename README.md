@@ -3,7 +3,7 @@
 
 # REST Application:
 # To Start:
-### Run "set_up_database.py" to set up the SQLite database.
+### Run "set_up_database.py" to set up the SQLite database. Then run rest_application.py
 
 
 # Creation:
